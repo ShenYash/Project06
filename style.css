@@ -1,0 +1,17 @@
+/*
+Theme Name: Magic Elementor Child
+Theme URI: https://wpthemespace.com/product/magic-elementor/
+Template: magic-elementor
+Author: Noor Alam
+Author URI: https://wpthemespace.com/
+Description: The Magic Elementor is a WordPress theme that stands out for its lightweight design and excellent compatibility with the popular Elementor page builder. If you're a fan of Elementor, this theme might just be perfect for you. Not only does it come with a built-in Header and Footer builder that's free to use, but it's also user-friendly and suitable for both beginners and experienced professionals alike. Overall, Magic Elementor is a top choice for anyone looking for a high-quality WordPress theme that works seamlessly with Elementor. Ready to use for any type of Website Solution. Please see the theme documentation video https://www.youtube.com/watch?v=jTEckmVe9dE
+Tags: two-columns,blog,news,right-sidebar,custom-background,custom-colors,custom-menu,custom-logo,editor-style,featured-images,full-width-template,sticky-post,theme-options,threaded-comments,translation-ready
+Version: 1.0.9.1714324460
+Updated: 2024-04-28 19:14:20
+
+*/
+.kaliforms-form-container label {
+    display: white;
+    font-weight: normal;
+    color: #0a0a0a;
+}
