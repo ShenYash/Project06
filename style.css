@@ -15,4 +15,28 @@ Updated: 2024-04-28 19:14:20
     font-weight: normal;
     color: #0a0a0a;
 }
+
+.kaliforms-form-container .btn {
+	width:198px !important;
+	
+    background: transparent;
+    border: 0px solid transparent;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-size: 15px!important;
+    font-weight: 400!important;
+    line-height: 55px!important;
+    padding: 0px !important;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    outline: none;
+    position: relative;
+    top: 0;
+    text-shadow: 0 0px 1px rgba(0, 0, 0, 0.5);
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    -moz-transition: all 0.2s ease-in-out 0s;
+    -ms-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
+}
 /*it is the end of my style.css file */
