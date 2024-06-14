@@ -44,4 +44,12 @@ Updated: 2024-04-28 19:14:20
     display: block;
     font-weight: normal;    
 }
+
+div.wpforms-container-full .wpforms-field-label, .wp-core-ui div.wpforms-container-full .wpforms-field-label {
+    margin: 0 0 var(--wpforms-field-size-input-spacing) 0;
+    padding: 0;
+    font-size: 20px!important;
+    line-height: var(--wpforms-label-size-line-height);
+    color: #fff!important;
+}
 /*it is the end of my style.css file */
