@@ -39,4 +39,9 @@ Updated: 2024-04-28 19:14:20
     -ms-transition: all 0.2s ease-in-out 0s;
     transition: all 0.2s ease-in-out 0s;
 }
+
+.kaliforms-form-container label {
+    display: block;
+    font-weight: normal;    
+}
 /*it is the end of my style.css file */
