@@ -52,4 +52,17 @@ div.wpforms-container-full .wpforms-field-label, .wp-core-ui div.wpforms-contain
     line-height: var(--wpforms-label-size-line-height);
     color: #fff!important;
 }
+
+.wpforms-container .wpforms-field-label, .wp-core-ui div.wpforms-container .wpforms-field-label {
+    display: block;
+    font-weight: 400!important;
+    font-style: normal;
+    word-break: break-word;
+    word-wrap: break-word;
+}
+div.wpforms-container-full input[type=submit]:not(:hover):not(:active), div.wpforms-container-full button[type=submit]:not(:hover):not(:active), div.wpforms-container-full .wpforms-page-button:not(:hover):not(:active), .wp-core-ui div.wpforms-container-full input[type=submit]:not(:hover):not(:active), .wp-core-ui div.wpforms-container-full button[type=submit]:not(:hover):not(:active), .wp-core-ui div.wpforms-container-full .wpforms-page-button:not(:hover):not(:active) {
+    background-color: var(--wpforms-button-background-color-alt, var(--wpforms-button-background-color));
+    color: var(--wpforms-button-text-color);
+   
+}
 /*it is the end of my style.css file */
