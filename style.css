@@ -129,4 +129,10 @@ div.wpforms-container-full input[type=date], div.wpforms-container-full input[ty
     width: 90%!important; /* Adjust this value to your preference */
     max-width: 800px; /* Set a maximum width if desired */
 }
+
+/* Increase the width of textarea fields */
+.wpforms-field textarea {
+    width: 90%!important; /* Adjust this value to your preference */
+    max-width:800px; /* Set a maximum width if desired */
+}
 /*it is the end of my style.css file */
