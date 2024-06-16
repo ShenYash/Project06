@@ -87,4 +87,46 @@ div.wpforms-container-full input[type=submit]:not(:hover):not(:active), div.wpfo
 	margin-top:30px!important;
 	
 }
+
+.wpforms-field input[type=text],
+.wpforms-field input[type=email],
+.wpforms-field input[type=url],
+.wpforms-field input[type=tel],
+.wpforms-field input[type=number],
+.wpforms-field input[type=date],
+.wpforms-field input[type=password] {
+    height: 75px; /* Adjust this value to your preference */
+	
+    line-height: 75px; /* Ensure the text is vertically centered */
+border-radius:5px;
+}
+
+
+div.wpforms-container-full input[type=date], div.wpforms-container-full input[type=datetime], div.wpforms-container-full input[type=datetime-local], div.wpforms-container-full input[type=email], div.wpforms-container-full input[type=month], div.wpforms-container-full input[type=number], div.wpforms-container-full input[type=password], div.wpforms-container-full input[type=range], div.wpforms-container-full input[type=search], div.wpforms-container-full input[type=tel], div.wpforms-container-full input[type=text], div.wpforms-container-full input[type=time], div.wpforms-container-full input[type=url], div.wpforms-container-full input[type=week], div.wpforms-container-full select, div.wpforms-container-full textarea, .wp-core-ui div.wpforms-container-full input[type=date], .wp-core-ui div.wpforms-container-full input[type=datetime], .wp-core-ui div.wpforms-container-full input[type=datetime-local], .wp-core-ui div.wpforms-container-full input[type=email], .wp-core-ui div.wpforms-container-full input[type=month], .wp-core-ui div.wpforms-container-full input[type=number], .wp-core-ui div.wpforms-container-full input[type=password], .wp-core-ui div.wpforms-container-full input[type=range], .wp-core-ui div.wpforms-container-full input[type=search], .wp-core-ui div.wpforms-container-full input[type=tel], .wp-core-ui div.wpforms-container-full input[type=text], .wp-core-ui div.wpforms-container-full input[type=time], .wp-core-ui div.wpforms-container-full input[type=url], .wp-core-ui div.wpforms-container-full input[type=week], .wp-core-ui div.wpforms-container-full select, .wp-core-ui div.wpforms-container-full textarea {
+    background-color: var(--wpforms-field-background-color);
+    background-clip: padding-box;
+    border-radius: 5px!important;
+    /* color: var(--wpforms-field-text-color); */
+    border-width: var(--wpforms-field-border-size);
+    border-style: var(--wpforms-field-border-style);
+    /* border-color: var(--wpforms-field-border-color); */
+    padding: 0 var(--wpforms-field-size-padding-h);
+    font-size: var(--wpforms-field-size-font-size);
+    line-height: 100%;
+    box-shadow: none;
+    transition: border 0.15s, box-shadow 0.15s;
+}
+
+
+/* Increase the width of text input fields */
+.wpforms-field input[type=text],
+.wpforms-field input[type=email],
+.wpforms-field input[type=url],
+.wpforms-field input[type=tel],
+.wpforms-field input[type=number],
+.wpforms-field input[type=date],
+.wpforms-field input[type=password] {
+    width: 90%!important; /* Adjust this value to your preference */
+    max-width: 800px; /* Set a maximum width if desired */
+}
 /*it is the end of my style.css file */
