@@ -65,4 +65,26 @@ div.wpforms-container-full input[type=submit]:not(:hover):not(:active), div.wpfo
     color: var(--wpforms-button-text-color);
    
 }
+
+div.wpforms-container-full input[type=submit]:not(:hover):not(:active), div.wpforms-container-full button[type=submit]:not(:hover):not(:active), div.wpforms-container-full .wpforms-page-button:not(:hover):not(:active), .wp-core-ui div.wpforms-container-full input[type=submit]:not(:hover):not(:active), .wp-core-ui div.wpforms-container-full button[type=submit]:not(:hover):not(:active), .wp-core-ui div.wpforms-container-full .wpforms-page-button:not(:hover):not(:active) {
+    background-color: #E0B9B4!important;
+    color: var(--wpforms-button-text-color);
+}
+
+
+
+.wpforms-submit-container {
+    text-align: center;
+	margin-right:30px!important;
+	margin-top:30px!important;
+	
+	
+}
+
+.wpforms-submit {
+    display: inline-block;
+	margin-right:30px!important;
+	margin-top:30px!important;
+	
+}
 /*it is the end of my style.css file */
