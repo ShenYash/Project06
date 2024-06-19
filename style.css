@@ -11,7 +11,7 @@ Updated: 2024-04-28 19:14:20
 
 */
 .kaliforms-form-container label {
-    display: white;
+   /* display: #ffff; */
     font-weight: normal;
     color: #0a0a0a;
 }
@@ -134,5 +134,14 @@ div.wpforms-container-full input[type=date], div.wpforms-container-full input[ty
 .wpforms-field textarea {
     width: 90%!important; /* Adjust this value to your preference */
     max-width:800px; /* Set a maximum width if desired */
+}
+
+/* Change the hover color of the submit button */
+.wpforms-submit:hover {
+    background-color: 
+#C02E44 !important; /* Change this to your desired hover background color */
+    color: #ffffff !important; /* Change this to your desired hover text color */
+    border-color: 
+#C02E44 !important; /* Change this to your desired hover border color */
 }
 /*it is the end of my style.css file */
