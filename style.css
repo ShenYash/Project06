@@ -11,7 +11,7 @@ Updated: 2024-04-28 19:14:20
 
 */
 .kaliforms-form-container label {
-   /* display: #ffff; */
+   display: white; 
     font-weight: normal;
     color: #0a0a0a;
 }
@@ -145,3 +145,7 @@ div.wpforms-container-full input[type=date], div.wpforms-container-full input[ty
 #C02E44 !important; /* Change this to your desired hover border color */
 }
 /*it is the end of my style.css file */
+
+html{
+    overflow-x: hidden;
+}
